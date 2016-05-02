@@ -89,7 +89,7 @@ add_executable(drrobot_jaguar4x4_IMU_node src/drrobot_imu.cpp)
 
 ## Specify libraries to link a library or executable target against
  target_link_libraries(drrobot_jaguar4x4_player_node
-   ${catkin_LIBRARIES} DrRobotMotionSensorDriver
+   ${catkin_LIBRARIES}
  )
 target_link_libraries(drrobot_jaguar4x4_msg_tester_node ${catkin_LIBRARIES})
 target_link_libraries(drrobot_jaguar4x4_keyboard_teleop_node ${catkin_LIBRARIES})
